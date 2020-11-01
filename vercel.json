@@ -1,0 +1,40 @@
+{
+    "name": "serverless-jiosaavn-api",
+    "version": 2,
+    "routes": [{
+            "src": "/",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api"
+        },
+        {
+            "src": "/search",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/search"
+        },
+        {
+            "src": "/song",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/song"
+        },
+        {
+            "src": "/lyrics",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/lyrics"
+        },
+        {
+            "src": "/albumsearch",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/albumsearch"
+        },
+        {
+            "src": "/album",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/album"
+        },
+        {
+            "src": "/link",
+            "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*", "Open-Source": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api" },
+            "dest": "/api/link"
+        }
+    ]
+}

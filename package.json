@@ -1,0 +1,23 @@
+{
+    "name": "serverless-jiosaavn-api",
+    "version": "1.0.0",
+    "description": "Unofficial Serverless JioSaavn API written in Javascript",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cachecleanerjeet/serverless-jiosaavn-api.git"
+    },
+    "dependencies": {
+        "request": "^2.88.2"
+    },
+    "keywords": [
+        "jiosaavn-api",
+        "jiosaavn-serverless-api"
+    ],
+    "author": "Tuhin Kanti Pal",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api/issues"
+    },
+    "homepage": "https://github.com/cachecleanerjeet/serverless-jiosaavn-api#readme"
+}
